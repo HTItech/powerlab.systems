@@ -23,10 +23,11 @@ Preencha o campo abaixo para receber nosso contato</a>.</p>
 			</header>
 
 		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="https://formspree.io/f/xpqjprzl">
-				<input type="email" name="email" id="email" placeholder="Digite o seu e-mail" />
-				<input type="submit" value="Enviar" />
-			</form>
+			<form id="signup-form" method="POST" action="https://formspree.io/f/xpqjprzl">
+	<input type="hidden" name="_subject" value="Novo cadastro de e-mail - powerlab.systems">
+	<input type="email" name="email" id="email" placeholder="Digite o seu e-mail" required />
+	<input type="submit" value="Enviar" />
+</form>
 
 		<!-- Footer -->
 			<footer id="footer">
