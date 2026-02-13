@@ -101,8 +101,8 @@
 
 		})();
 
-	// Signup Form.
-		(function() {
+	// Signup Form (desativado para permitir POST direto ao Formspree).
+if (false) (function() {
 
 			// Vars.
 				var $form = document.querySelectorAll('#signup-form')[0],
